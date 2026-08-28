@@ -182,5 +182,6 @@ Evaluación del comportamiento del sistema y análisis del desempeño del algori
 ## Autor
 
 **Wara López**
+
 Ingeniera Electrónica • Ciencia de Datos • Python • Visualización de Datos
 
