@@ -2,8 +2,7 @@
 
 Proyecto de Ingeniería Electrónica que integra **adquisición de datos, control de temperatura mediante histéresis y análisis de datos con Python**. El sistema fue desarrollado inicialmente en el simulador **Wokwi** utilizando un ESP32, un sensor DHT22 y una pantalla OLED SSD1306, con el objetivo de construir un flujo completo de adquisición de datos para su posterior procesamiento y visualización.
 
-> **Estado del proyecto:** En desarrollo (Etapa de simulación y adquisición de datos completada) <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/7f6fa7e6-e128-4ac4-8729-9672119d8860" />
-
+> **Estado del proyecto:** 🚧 🛠️ 💻 En desarrollo (Etapa de simulación y adquisición de datos completada) 🚧 🛠️ 💻 
 
 ---
 
@@ -59,33 +58,33 @@ El proyecto está pensado como un ejemplo de integración entre **Electrónica, 
 
 ##  Funcionalidades implementadas
 
-### Adquisición de datos
+  ### Adquisición de datos
 
-* Lectura de temperatura.
-* Lectura de humedad.
-
-### Sistema de control
-
-* Setpoint configurable
-* Control ON/OFF
-* Histéresis para evitar cambios rápidos del actuador
-* Estado del ventilador (`ON` / `OFF`)
-
-### Validación de datos
-
-* Verificación de lecturas inválidas del sensor
-* Identificación de temperaturas fuera del rango operativo
-* Marcado de registros con `dato_valido = 0`
-* Estado `ERROR` para registros inválidos
-
-### Visualización local
-
-* Temperatura en pantalla OLED
-* Humedad en pantalla OLED
-* Setpoint
-* Estado del ventilador
-
----
+  * Lectura de temperatura
+  * Lectura de humedad
+  
+  ### Sistema de control
+  
+  * Setpoint configurable
+  * Control ON/OFF
+  * Histéresis para evitar cambios rápidos del actuador
+  * Estado del ventilador (`ON` / `OFF`)
+  
+  ### Validación de datos
+  
+  * Verificación de lecturas inválidas del sensor
+  * Identificación de temperaturas fuera del rango operativo
+  * Marcado de registros con `dato_valido = 0`
+  * Estado `ERROR` para registros inválidos
+  
+  ### Visualización local
+  
+  * Temperatura en pantalla OLED
+  * Humedad en pantalla OLED
+  * Setpoint
+  * Estado del ventilador
+  
+  ---
 
 ## Estructura del dataset generado
 
@@ -135,37 +134,36 @@ Este archivo constituye el conjunto de datos base para las etapas de análisis e
 
 * Captura del puerto serial
 * Exportación manual del registro del Serial Monitor a un archivo CSV
-* Organización de datos en la carpeta `data/raw`
 
-## Próximas etapas (En desarrollo)
+## Próximas etapas (En desarrollo) 🚧 🛠️ 💻 
 
 ### Etapa 4 — Validación y limpieza de datos
 
-* Identificación de datos inválidos.
-* Tratamiento de valores fuera de rango.
-* Verificación de tipos de datos.
-* Generación del dataset procesado.
+* Identificación de datos inválidos
+* Tratamiento de valores fuera de rango
+* Verificación de tipos de datos
+* Generación del dataset procesado
 
 ### Etapa 5 — Análisis Exploratorio (EDA)
 
 Se analizarán variables como:
 
-* Distribución de temperatura.
-* Distribución de humedad.
-* Tiempo de funcionamiento del ventilador.
-* Temperaturas fuera del rango operativo.
-* Error respecto al setpoint.
-* Cambios de estado del sistema.
+* Distribución de temperatura
+* Distribución de humedad
+* Tiempo de funcionamiento del ventilador
+* Temperaturas fuera del rango operativo
+* Error respecto al setpoint
+* Cambios de estado del sistema
 
 ### Etapa 6 — Dashboard interactivo
 
 Desarrollo de un dashboard con Streamlit que permitirá:
 
-* KPIs del sistema.
-* Visualización temporal de temperatura y humedad.
-* Estado del ventilador.
-* Indicadores de calidad de datos.
-* Filtros interactivos.
+* KPIs del sistema
+* Visualización temporal de temperatura y humedad
+* Estado del ventilador
+* Indicadores de calidad de datos
+* Filtros interactivos
 
 ### Etapa 7 — Conclusiones
 
